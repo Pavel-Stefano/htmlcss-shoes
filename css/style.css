@@ -1,0 +1,61 @@
+/* rest */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debag {
+    border:1px solid black;
+}
+
+#red {
+    background-color: red;
+    color: yellow;
+}
+
+#green {
+    background-color: green;
+    color: yellow;
+}
+
+#yellow {
+    background-color: yellow;
+    color: green
+}
+/* general */
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    color: black;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-text img {
+   height: 40vh;
+}
+
+.image-text h2 {
+    text-align: center;
+    font-size: 30px;
+}
