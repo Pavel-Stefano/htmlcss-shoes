@@ -46,6 +46,12 @@ ul li {
     line-height: 50px;
     border-radius: 50%;
     background-color: white;
+    margin-left: 15px;
+}
+
+li:hover, a:hover {
+    background-color: orange;
+    color: white;
 }
 
 a {
@@ -67,4 +73,5 @@ a {
 .image-text h2 {
     text-align: center;
     font-size: 30px;
+    text-transform: uppercase;
 }
